@@ -1,7 +1,11 @@
+import Navbar from "./components/Navbar";
+
 function App() {
   return (
     <>
-      <h1>MovieBox</h1>
+      <div className="bg-indigo-950 h-screen flex flex-col items-center">
+        <Navbar />
+      </div>
     </>
   );
 }
