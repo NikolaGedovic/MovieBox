@@ -14,7 +14,7 @@ function App() {
     <>
       <div className="bg-indigo-950 h-screen flex flex-col items-center">
         <Navbar handleSearch={handleSearch} />
-        <MovieCard />
+        <MovieCard movie={movie} />
       </div>
     </>
   );
